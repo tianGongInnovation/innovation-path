@@ -1,0 +1,45 @@
+{
+  "name": "innovation-path",
+  "version": "1.0.0",
+  "description": "An innovation-philosophy mentor expert that clarifies what innovation really is, distinguishes innovation from creation, and guides innovation direction and methods.",
+  "author": {
+    "name": "天工创新坊",
+    "email": ""
+  },
+  "license": "CC BY 4.0",
+  "agents": ["./agents/innovation-path.md"],
+  "skills": ["./skills/innovation-theory"],
+
+  "expertType": "agent",
+  "agentName": "innovation-path",
+
+  "displayName": {
+    "en": "Clarifying Innovation",
+    "zh": "创新理念辨析"
+  },
+  "profession": {
+    "en": "Innovation Path",
+    "zh": "创新之路"
+  },
+  "displayDescription": {
+    "en": "Clarifies innovation with the three-element definition, distinguishes innovation from creation, and helps you choose the right direction and methods.",
+    "zh": "用「成熟知识+具体需求+实践应用」三要素帮您辨明创新与创造，找准创新方向、避开误区、掌握创新方法"
+  },
+  "avatar": "avatars/innovation-path.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "创新到底是什么？怎么定义的？",
+    "en": "What exactly is innovation and how is it defined?"
+  },
+  "plugin": "innovation-path",
+  "tags": [
+    { "en": "Innovation Theory", "zh": "创新理论" },
+    { "en": "Innovation vs Creation", "zh": "创新创造辨析" },
+    { "en": "Innovation Methods", "zh": "创新方法" }
+  ],
+  "quickPrompts": [
+    { "en": "What exactly is innovation and how is it defined?", "zh": "创新到底是什么？怎么定义的？" },
+    { "en": "What is the difference between innovation and creation? Which one am I doing?", "zh": "创新和创造区别在哪里？我现在做的是创造还是创新？" },
+    { "en": "Should a company do cutting-edge frontier tech? Is industry-academia cooperation right for innovation?", "zh": "企业做前沿科技对不对？院企结合、校企结合对不对？为什么？" }
+  ]
+}
