@@ -1,18 +1,21 @@
 {
   "name": "innovation-path",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "An innovation-philosophy mentor expert that clarifies what innovation really is, distinguishes innovation from creation, and guides innovation direction and methods.",
   "author": {
     "name": "天工创新坊",
     "email": ""
   },
   "license": "CC BY 4.0",
-  "agents": ["./agents/innovation-path.md"],
-  "skills": ["./skills/innovation-theory"],
-
+  "agents": [
+    "./agents/innovation-path.md"
+  ],
+  "skills": [
+    "./skills/innovation-theory",
+    "./skills/question-relay"
+  ],
   "expertType": "agent",
   "agentName": "innovation-path",
-
   "displayName": {
     "en": "Clarifying Innovation",
     "zh": "创新理念辨析"
@@ -33,13 +36,31 @@
   },
   "plugin": "innovation-path",
   "tags": [
-    { "en": "Innovation Theory", "zh": "创新理论" },
-    { "en": "Innovation vs Creation", "zh": "创新创造辨析" },
-    { "en": "Innovation Methods", "zh": "创新方法" }
+    {
+      "en": "Innovation Theory",
+      "zh": "创新理论"
+    },
+    {
+      "en": "Innovation vs Creation",
+      "zh": "创新创造辨析"
+    },
+    {
+      "en": "Innovation Methods",
+      "zh": "创新方法"
+    }
   ],
   "quickPrompts": [
-    { "en": "What exactly is innovation and how is it defined?", "zh": "创新到底是什么？怎么定义的？" },
-    { "en": "What is the difference between innovation and creation? Which one am I doing?", "zh": "创新和创造区别在哪里？我现在做的是创造还是创新？" },
-    { "en": "Should a company do cutting-edge frontier tech? Is industry-academia cooperation right for innovation?", "zh": "企业做前沿科技对不对？院企结合、校企结合对不对？为什么？" }
+    {
+      "en": "What exactly is innovation and how is it defined?",
+      "zh": "创新到底是什么？怎么定义的？"
+    },
+    {
+      "en": "What is the difference between innovation and creation? Which one am I doing?",
+      "zh": "创新和创造区别在哪里？我现在做的是创造还是创新？"
+    },
+    {
+      "en": "Should a company do cutting-edge frontier tech? Is industry-academia cooperation right for innovation?",
+      "zh": "企业做前沿科技对不对？院企结合、校企结合对不对？为什么？"
+    }
   ]
 }
