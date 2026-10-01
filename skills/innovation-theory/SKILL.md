@@ -1,6 +1,10 @@
 ---
 name: innovation-theory
 description: 创新之路专家的参考资料库。包含创新核心理论（三要素定义、创新与创造六维对比、主体/特点/动力/方法/误区/机制体制/方向选择）、《创新论》全文、秦骏伦《创新经营》12讲、名人谈创新、其它创新理论对比资料。回答概念辨析、方向判断、方法指导类问题时按需查阅。
+display_name: 创新理论资料库
+display_name_en: "Innovation Theory Knowledge Base"
+description_zh: "创新之路专家的参考资料库：创新核心理论、《创新论》全文、秦骏伦《创新经营》12 讲、名人谈创新与各家理论对比，回答概念辨析、方向判断、方法指导类问题时按需查阅。"
+description_en: "Reference library for the Innovation Path expert: core innovation theory, the full text of On Innovation, Qin Junlun 12 lectures on innovation management, well-known figures on innovation, and comparative material from other schools - consulted on demand for concept clarification, direction judgement and method guidance."
 ---
 
 # 创新理论资料库
